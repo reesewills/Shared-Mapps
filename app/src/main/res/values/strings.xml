@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mapp</string>
+    <string name="title_activity_search_results">SearchResults</string>
+    <string name="title_activity_discover">Discover</string>
+    <string name="title_discovery">Discovery</string>
+    <string name="title_saved">My Maps</string>
+    <string name="title_followed">Followed Maps</string>
+    <string name="title_account">Account</string>
+    <string name="title_activity_map_display">MapDisplay</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="editButton">Edit</string>
+</resources>

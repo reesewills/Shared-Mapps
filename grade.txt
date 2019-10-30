@@ -1,0 +1,8 @@
+Overall your app was very impressive. We did have some minor criticisms:
+
+When you viewed a map for the first time it was very zoomed out, which was a bit inconvenient.
+I also noticed that your app crashed once mid demo.
+
+These criticisms are pretty minor overall, you should be proud of this project. Great job!
+
+Grade: 70 / 70

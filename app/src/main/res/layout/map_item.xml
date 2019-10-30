@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="100dp">
+
+
+    <TextView
+            android:text="Map Name"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:id="@+id/map_name" android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="103dp" android:layout_marginStart="103dp" android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Location"
+            android:layout_width="292dp"
+            android:layout_height="32dp"
+            android:id="@+id/location_tag"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="60dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="103dp" android:layout_marginStart="103dp" android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="87dp"
+            android:layout_height="79dp" app:srcCompat="@drawable/ic_search_black_24dp"
+            android:id="@+id/map_image"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp" android:layout_marginEnd="318dp" android:layout_marginRight="318dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>

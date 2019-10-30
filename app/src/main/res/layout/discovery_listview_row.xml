@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/map_name"
+            android:layout_marginLeft="13dp" android:layout_marginTop="13dp" android:layout_marginStart="13dp"
+            android:layout_marginRight="13dp" android:layout_marginEnd="13dp" android:layout_marginBottom="13dp"
+            android:textSize="24sp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/ic_menu_mylocation"
+            android:id="@+id/pin_img" android:layout_marginBottom="-48dp" android:layout_alignBottom="@+id/map_name"
+            android:layout_alignParentStart="true" android:layout_marginLeft="21dp" android:layout_marginStart="21dp"
+            android:layout_alignParentLeft="true"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/map_location" android:layout_toEndOf="@+id/pin_img"
+            android:layout_toRightOf="@+id/pin_img" android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp" android:layout_marginTop="68dp" android:layout_alignParentTop="true"
+            android:textSize="18sp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/creator" android:layout_marginTop="24dp"
+            android:layout_below="@+id/map_location" android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp" android:layout_marginStart="18dp" android:layout_alignParentLeft="true"
+            android:textSize="18sp"/>
+</RelativeLayout>

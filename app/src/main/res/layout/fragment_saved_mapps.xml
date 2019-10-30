@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/saved_maps_title"
+                android:layout_width="409dp"
+                android:layout_height="49dp"
+                android:text="Followed Maps: "
+                android:textSize="32sp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/my_followed_maps"
+                android:layout_width="match_parent"
+                android:layout_height="640dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/saved_maps_title"
+        >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
